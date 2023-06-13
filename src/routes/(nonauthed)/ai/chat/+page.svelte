@@ -88,7 +88,7 @@
 
 			aiCurrentMessage = 'thinking ...';
 
-			const response = await fetch('/advancedApi/ai/chat', {
+			const response = await fetch('https://api.kato.to/ai/chat', {
 				method: 'POST',
 				headers: {
 					'Content-Type': 'application/json',
